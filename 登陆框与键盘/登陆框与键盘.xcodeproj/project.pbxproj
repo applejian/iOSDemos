@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F8C71350A54C1693DDFBC25 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 357D36EDB217CC3BBCBA93D2 /* libPods.a */; };
+		729B87841AC91EB7000F55A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 729B87831AC91EB7000F55A8 /* main.m */; };
+		729B87871AC91EB7000F55A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 729B87861AC91EB7000F55A8 /* AppDelegate.m */; };
+		729B878A1AC91EB7000F55A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 729B87891AC91EB7000F55A8 /* ViewController.m */; };
+		729B878D1AC91EB7000F55A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729B878B1AC91EB7000F55A8 /* Main.storyboard */; };
+		729B878F1AC91EB7000F55A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729B878E1AC91EB7000F55A8 /* Images.xcassets */; };
+		729B87921AC91EB7000F55A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 729B87901AC91EB7000F55A8 /* LaunchScreen.xib */; };
+		729B879E1AC91EB7000F55A8 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 729B879D1AC91EB7000F55A8 /* ______Tests.m */; };
+		729B87AD1AC91EEA000F55A8 /* YWForgetPasswordViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 729B87A81AC91EEA000F55A8 /* YWForgetPasswordViewController2.m */; };
+		729B87AE1AC91EEA000F55A8 /* YWLoginViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 729B87AA1AC91EEA000F55A8 /* YWLoginViewController2.m */; };
+		729B87AF1AC91EEA000F55A8 /* YWRegisterViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 729B87AC1AC91EEA000F55A8 /* YWRegisterViewController2.m */; };
+		729B87B21AC91F03000F55A8 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 729B87B11AC91F03000F55A8 /* MainNavigationController.m */; };
+		729B87B51AC920FA000F55A8 /* NSString+TyanTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 729B87B41AC920FA000F55A8 /* NSString+TyanTop.m */; };
+		729B87B81AC92124000F55A8 /* UIButton+Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = 729B87B71AC92124000F55A8 /* UIButton+Activity.m */; };
+		729B87BB1AC92527000F55A8 /* loginBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 729B87BA1AC92527000F55A8 /* loginBg@2x.png */; };
+		729B87C01AC92544000F55A8 /* leftCloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 729B87BC1AC92544000F55A8 /* leftCloud.png */; };
+		729B87C11AC92544000F55A8 /* qqwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 729B87BD1AC92544000F55A8 /* qqwhite.png */; };
+		729B87C21AC92544000F55A8 /* rightCloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 729B87BE1AC92544000F55A8 /* rightCloud.png */; };
+		729B87C31AC92544000F55A8 /* wx_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 729B87BF1AC92544000F55A8 /* wx_logo.png */; };
+		729B87C61AC925A9000F55A8 /* vertify_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 729B87C41AC925A9000F55A8 /* vertify_error@2x.png */; };
+		729B87C71AC925A9000F55A8 /* vertify_ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 729B87C51AC925A9000F55A8 /* vertify_ok@2x.png */; };
+		729B87C91AC925C3000F55A8 /* back_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 729B87C81AC925C3000F55A8 /* back_arrow@2x.png */; };
+		729B87CB1AC92699000F55A8 /* centerCloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 729B87CA1AC92699000F55A8 /* centerCloud.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		729B87981AC91EB7000F55A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729B87761AC91EB6000F55A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 729B877D1AC91EB7000F55A8;
+			remoteInfo = "登陆框与键盘";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25C817E3EB2DA56A336C4CE3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		357D36EDB217CC3BBCBA93D2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D530E61DC14B49390E01729 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		729B877E1AC91EB7000F55A8 /* 登陆框与键盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "登陆框与键盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		729B87821AC91EB7000F55A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		729B87831AC91EB7000F55A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		729B87851AC91EB7000F55A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		729B87861AC91EB7000F55A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		729B87881AC91EB7000F55A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		729B87891AC91EB7000F55A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		729B878C1AC91EB7000F55A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		729B878E1AC91EB7000F55A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		729B87911AC91EB7000F55A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		729B87971AC91EB7000F55A8 /* 登陆框与键盘Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "登陆框与键盘Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		729B879C1AC91EB7000F55A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		729B879D1AC91EB7000F55A8 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		729B87A71AC91EEA000F55A8 /* YWForgetPasswordViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWForgetPasswordViewController2.h; sourceTree = "<group>"; };
+		729B87A81AC91EEA000F55A8 /* YWForgetPasswordViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWForgetPasswordViewController2.m; sourceTree = "<group>"; };
+		729B87A91AC91EEA000F55A8 /* YWLoginViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLoginViewController2.h; sourceTree = "<group>"; };
+		729B87AA1AC91EEA000F55A8 /* YWLoginViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLoginViewController2.m; sourceTree = "<group>"; };
+		729B87AB1AC91EEA000F55A8 /* YWRegisterViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWRegisterViewController2.h; sourceTree = "<group>"; };
+		729B87AC1AC91EEA000F55A8 /* YWRegisterViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWRegisterViewController2.m; sourceTree = "<group>"; };
+		729B87B01AC91F03000F55A8 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		729B87B11AC91F03000F55A8 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		729B87B31AC920FA000F55A8 /* NSString+TyanTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TyanTop.h"; sourceTree = "<group>"; };
+		729B87B41AC920FA000F55A8 /* NSString+TyanTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TyanTop.m"; sourceTree = "<group>"; };
+		729B87B61AC92124000F55A8 /* UIButton+Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Activity.h"; sourceTree = "<group>"; };
+		729B87B71AC92124000F55A8 /* UIButton+Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Activity.m"; sourceTree = "<group>"; };
+		729B87B91AC92188000F55A8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		729B87BA1AC92527000F55A8 /* loginBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginBg@2x.png"; sourceTree = "<group>"; };
+		729B87BC1AC92544000F55A8 /* leftCloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftCloud.png; sourceTree = "<group>"; };
+		729B87BD1AC92544000F55A8 /* qqwhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qqwhite.png; sourceTree = "<group>"; };
+		729B87BE1AC92544000F55A8 /* rightCloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightCloud.png; sourceTree = "<group>"; };
+		729B87BF1AC92544000F55A8 /* wx_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wx_logo.png; sourceTree = "<group>"; };
+		729B87C41AC925A9000F55A8 /* vertify_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vertify_error@2x.png"; sourceTree = "<group>"; };
+		729B87C51AC925A9000F55A8 /* vertify_ok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vertify_ok@2x.png"; sourceTree = "<group>"; };
+		729B87C81AC925C3000F55A8 /* back_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_arrow@2x.png"; sourceTree = "<group>"; };
+		729B87CA1AC92699000F55A8 /* centerCloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = centerCloud.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		729B877B1AC91EB7000F55A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8C71350A54C1693DDFBC25 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729B87941AC91EB7000F55A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		729B87751AC91EB6000F55A8 = {
+			isa = PBXGroup;
+			children = (
+				729B87801AC91EB7000F55A8 /* 登陆框与键盘 */,
+				729B879A1AC91EB7000F55A8 /* 登陆框与键盘Tests */,
+				729B877F1AC91EB7000F55A8 /* Products */,
+				89133ADC0EA42B086A722797 /* Pods */,
+				F6AF21473A68FFF973A3F693 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		729B877F1AC91EB7000F55A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				729B877E1AC91EB7000F55A8 /* 登陆框与键盘.app */,
+				729B87971AC91EB7000F55A8 /* 登陆框与键盘Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		729B87801AC91EB7000F55A8 /* 登陆框与键盘 */ = {
+			isa = PBXGroup;
+			children = (
+				729B87BA1AC92527000F55A8 /* loginBg@2x.png */,
+				729B87BC1AC92544000F55A8 /* leftCloud.png */,
+				729B87BD1AC92544000F55A8 /* qqwhite.png */,
+				729B87BE1AC92544000F55A8 /* rightCloud.png */,
+				729B87CA1AC92699000F55A8 /* centerCloud.png */,
+				729B87BF1AC92544000F55A8 /* wx_logo.png */,
+				729B87C81AC925C3000F55A8 /* back_arrow@2x.png */,
+				729B87C41AC925A9000F55A8 /* vertify_error@2x.png */,
+				729B87C51AC925A9000F55A8 /* vertify_ok@2x.png */,
+				729B87851AC91EB7000F55A8 /* AppDelegate.h */,
+				729B87861AC91EB7000F55A8 /* AppDelegate.m */,
+				729B87881AC91EB7000F55A8 /* ViewController.h */,
+				729B87891AC91EB7000F55A8 /* ViewController.m */,
+				729B87B31AC920FA000F55A8 /* NSString+TyanTop.h */,
+				729B87B41AC920FA000F55A8 /* NSString+TyanTop.m */,
+				729B87B61AC92124000F55A8 /* UIButton+Activity.h */,
+				729B87B71AC92124000F55A8 /* UIButton+Activity.m */,
+				729B87A71AC91EEA000F55A8 /* YWForgetPasswordViewController2.h */,
+				729B87A81AC91EEA000F55A8 /* YWForgetPasswordViewController2.m */,
+				729B87A91AC91EEA000F55A8 /* YWLoginViewController2.h */,
+				729B87AA1AC91EEA000F55A8 /* YWLoginViewController2.m */,
+				729B87AB1AC91EEA000F55A8 /* YWRegisterViewController2.h */,
+				729B87AC1AC91EEA000F55A8 /* YWRegisterViewController2.m */,
+				729B87B01AC91F03000F55A8 /* MainNavigationController.h */,
+				729B87B11AC91F03000F55A8 /* MainNavigationController.m */,
+				729B878B1AC91EB7000F55A8 /* Main.storyboard */,
+				729B878E1AC91EB7000F55A8 /* Images.xcassets */,
+				729B87901AC91EB7000F55A8 /* LaunchScreen.xib */,
+				729B87811AC91EB7000F55A8 /* Supporting Files */,
+			);
+			path = "登陆框与键盘";
+			sourceTree = "<group>";
+		};
+		729B87811AC91EB7000F55A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				729B87821AC91EB7000F55A8 /* Info.plist */,
+				729B87831AC91EB7000F55A8 /* main.m */,
+				729B87B91AC92188000F55A8 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		729B879A1AC91EB7000F55A8 /* 登陆框与键盘Tests */ = {
+			isa = PBXGroup;
+			children = (
+				729B879D1AC91EB7000F55A8 /* ______Tests.m */,
+				729B879B1AC91EB7000F55A8 /* Supporting Files */,
+			);
+			path = "登陆框与键盘Tests";
+			sourceTree = "<group>";
+		};
+		729B879B1AC91EB7000F55A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				729B879C1AC91EB7000F55A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89133ADC0EA42B086A722797 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D530E61DC14B49390E01729 /* Pods.debug.xcconfig */,
+				25C817E3EB2DA56A336C4CE3 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6AF21473A68FFF973A3F693 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				357D36EDB217CC3BBCBA93D2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		729B877D1AC91EB7000F55A8 /* 登陆框与键盘 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 729B87A11AC91EB7000F55A8 /* Build configuration list for PBXNativeTarget "登陆框与键盘" */;
+			buildPhases = (
+				D78FA66401C3FE29F38F1073 /* Check Pods Manifest.lock */,
+				729B877A1AC91EB7000F55A8 /* Sources */,
+				729B877B1AC91EB7000F55A8 /* Frameworks */,
+				729B877C1AC91EB7000F55A8 /* Resources */,
+				A37EEA5DB6FED5DBAEAD4B53 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "登陆框与键盘";
+			productName = "登陆框与键盘";
+			productReference = 729B877E1AC91EB7000F55A8 /* 登陆框与键盘.app */;
+			productType = "com.apple.product-type.application";
+		};
+		729B87961AC91EB7000F55A8 /* 登陆框与键盘Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 729B87A41AC91EB7000F55A8 /* Build configuration list for PBXNativeTarget "登陆框与键盘Tests" */;
+			buildPhases = (
+				729B87931AC91EB7000F55A8 /* Sources */,
+				729B87941AC91EB7000F55A8 /* Frameworks */,
+				729B87951AC91EB7000F55A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				729B87991AC91EB7000F55A8 /* PBXTargetDependency */,
+			);
+			name = "登陆框与键盘Tests";
+			productName = "登陆框与键盘Tests";
+			productReference = 729B87971AC91EB7000F55A8 /* 登陆框与键盘Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		729B87761AC91EB6000F55A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = ZhangWei;
+				TargetAttributes = {
+					729B877D1AC91EB7000F55A8 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					729B87961AC91EB7000F55A8 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 729B877D1AC91EB7000F55A8;
+					};
+				};
+			};
+			buildConfigurationList = 729B87791AC91EB6000F55A8 /* Build configuration list for PBXProject "登陆框与键盘" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 729B87751AC91EB6000F55A8;
+			productRefGroup = 729B877F1AC91EB7000F55A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				729B877D1AC91EB7000F55A8 /* 登陆框与键盘 */,
+				729B87961AC91EB7000F55A8 /* 登陆框与键盘Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		729B877C1AC91EB7000F55A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729B878D1AC91EB7000F55A8 /* Main.storyboard in Resources */,
+				729B87C21AC92544000F55A8 /* rightCloud.png in Resources */,
+				729B87C61AC925A9000F55A8 /* vertify_error@2x.png in Resources */,
+				729B87C11AC92544000F55A8 /* qqwhite.png in Resources */,
+				729B87C01AC92544000F55A8 /* leftCloud.png in Resources */,
+				729B87C91AC925C3000F55A8 /* back_arrow@2x.png in Resources */,
+				729B87CB1AC92699000F55A8 /* centerCloud.png in Resources */,
+				729B87BB1AC92527000F55A8 /* loginBg@2x.png in Resources */,
+				729B87C31AC92544000F55A8 /* wx_logo.png in Resources */,
+				729B87921AC91EB7000F55A8 /* LaunchScreen.xib in Resources */,
+				729B87C71AC925A9000F55A8 /* vertify_ok@2x.png in Resources */,
+				729B878F1AC91EB7000F55A8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729B87951AC91EB7000F55A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A37EEA5DB6FED5DBAEAD4B53 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D78FA66401C3FE29F38F1073 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		729B877A1AC91EB7000F55A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729B878A1AC91EB7000F55A8 /* ViewController.m in Sources */,
+				729B87AD1AC91EEA000F55A8 /* YWForgetPasswordViewController2.m in Sources */,
+				729B87AF1AC91EEA000F55A8 /* YWRegisterViewController2.m in Sources */,
+				729B87B81AC92124000F55A8 /* UIButton+Activity.m in Sources */,
+				729B87AE1AC91EEA000F55A8 /* YWLoginViewController2.m in Sources */,
+				729B87B21AC91F03000F55A8 /* MainNavigationController.m in Sources */,
+				729B87871AC91EB7000F55A8 /* AppDelegate.m in Sources */,
+				729B87841AC91EB7000F55A8 /* main.m in Sources */,
+				729B87B51AC920FA000F55A8 /* NSString+TyanTop.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729B87931AC91EB7000F55A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729B879E1AC91EB7000F55A8 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		729B87991AC91EB7000F55A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 729B877D1AC91EB7000F55A8 /* 登陆框与键盘 */;
+			targetProxy = 729B87981AC91EB7000F55A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		729B878B1AC91EB7000F55A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				729B878C1AC91EB7000F55A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		729B87901AC91EB7000F55A8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				729B87911AC91EB7000F55A8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		729B879F1AC91EB7000F55A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		729B87A01AC91EB7000F55A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		729B87A21AC91EB7000F55A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D530E61DC14B49390E01729 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/登陆框与键盘/PrefixHeader.pch";
+				INFOPLIST_FILE = "登陆框与键盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		729B87A31AC91EB7000F55A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C817E3EB2DA56A336C4CE3 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/登陆框与键盘/PrefixHeader.pch";
+				INFOPLIST_FILE = "登陆框与键盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		729B87A51AC91EB7000F55A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "登陆框与键盘Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/登陆框与键盘.app/登陆框与键盘";
+			};
+			name = Debug;
+		};
+		729B87A61AC91EB7000F55A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "登陆框与键盘Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/登陆框与键盘.app/登陆框与键盘";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		729B87791AC91EB6000F55A8 /* Build configuration list for PBXProject "登陆框与键盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				729B879F1AC91EB7000F55A8 /* Debug */,
+				729B87A01AC91EB7000F55A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		729B87A11AC91EB7000F55A8 /* Build configuration list for PBXNativeTarget "登陆框与键盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				729B87A21AC91EB7000F55A8 /* Debug */,
+				729B87A31AC91EB7000F55A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		729B87A41AC91EB7000F55A8 /* Build configuration list for PBXNativeTarget "登陆框与键盘Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				729B87A51AC91EB7000F55A8 /* Debug */,
+				729B87A61AC91EB7000F55A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 729B87761AC91EB6000F55A8 /* Project object */;
+}

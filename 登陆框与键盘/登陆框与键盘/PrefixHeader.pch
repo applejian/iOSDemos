@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  登陆框与键盘
+//
+//  Created by 张威 on 15/3/30.
+//  Copyright (c) 2015年 ZhangWei. All rights reserved.
+//
+
+#ifndef _______PrefixHeader_pch
+#define _______PrefixHeader_pch
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+
+#import "Masonry.h"
+
+// some colors
+#define YunWanButtonDisableTitleColor   \
+[[UIColor alloc] initWithWhite:1.0 alpha:0.6]
+
+#define YunWanButtonBackgroundRedColor  \
+[[UIColor alloc] initWithRed:250/255.0 green:120/255.0 blue:97/255.0 alpha:1.0]
+
+#define NAVIGATION_BAR_TITLE_FONT       [UIFont boldSystemFontOfSize:17.0]
+
+#define NAVIGATION_BAR_TITLE_COLOR      [UIColor whiteColor]
+
+#define YunWanNavigationBackgroundLightBlueColor    \
+[[UIColor alloc] initWithRed:7/255.0 green:185/255.0 blue:216/255.0 alpha:1.0]
+#endif

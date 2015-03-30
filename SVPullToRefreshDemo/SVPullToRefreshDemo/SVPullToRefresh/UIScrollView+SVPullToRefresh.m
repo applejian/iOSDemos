@@ -448,11 +448,12 @@ static char UIScrollViewPullToRefreshView;
         case SVPullToRefreshPositionTop:
             
             if(fequalzero(self.scrollView.contentOffset.y)) {
-                [self.scrollView setContentOffset:CGPointMake(self.scrollView.contentOffset.x, -self.frame.size.height) animated:YES];
+                [self.scrollView setContentOffset:CGPointMake(self.scrollView.contentOffset.x,
+                                                              -self.frame.size.height) animated:YES];
                 self.wasTriggeredByUser = NO;
-            }
-            else
+            } else {
                 self.wasTriggeredByUser = YES;
+            }
             
             break;
         case SVPullToRefreshPositionBottom:
@@ -472,6 +473,7 @@ static char UIScrollViewPullToRefreshView;
 }
 
 - (void)stopAnimatingWithState:(SVRefreshState)state {
+    
     if (state == SVRefreshStateSucceed) {
         self.state = SVPullToRefreshStateSucceed;
     } else {
@@ -481,12 +483,18 @@ static char UIScrollViewPullToRefreshView;
     switch (self.position) {
         case SVPullToRefreshPositionTop:
             if(!self.wasTriggeredByUser) {
-                [self.scrollView setContentOffset:CGPointMake(self.scrollView.contentOffset.x, -self.originalTopInset) animated:YES];
+                [self.scrollView setContentOffset:CGPointMake(self.scrollView.contentOffset.x,
+                                                              -self.originalTopInset)
+                                         animated:YES];
             }
             break;
         case SVPullToRefreshPositionBottom:
             if(!self.wasTriggeredByUser) {
-                [self.scrollView setContentOffset:CGPointMake(self.scrollView.contentOffset.x, self.scrollView.contentSize.height - self.scrollView.bounds.size.height + self.originalBottomInset) animated:YES];
+                [self.scrollView setContentOffset:CGPointMake(self.scrollView.contentOffset.x,
+                                                              self.scrollView.contentSize.height -
+                                                              self.scrollView.bounds.size.height +
+                                                              self.originalBottomInset)
+                                         animated:YES];
             }
             break;
     }

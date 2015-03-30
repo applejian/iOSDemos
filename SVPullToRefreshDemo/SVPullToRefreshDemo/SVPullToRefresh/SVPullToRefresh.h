@@ -13,3 +13,5 @@
 
 #import "UIScrollView+SVPullToRefresh.h"
 #import "UIScrollView+SVInfiniteScrolling.h"
+
+/* 基于SVPullToRefresh进行了修改 */

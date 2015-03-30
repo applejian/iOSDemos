@@ -35,7 +35,7 @@
 #define ANIMATION_DURATION  0.2
 
 - (void)commonInit {
-    self.backgroundColor = [UIColor clearColor];
+    self.backgroundColor = [UIColor YunWanViewBackgroundLightGrayColor];
 }
 
 - (instancetype)initWithTitle:(NSString *)title
@@ -143,9 +143,10 @@
     
     // self.frame.size.height
     CGFloat viewHeight = 0.0;
-    
-    titleHeight = [self getTitleHeight];
-    viewHeight += titleHeight + LABEL_MARGIN * 2;
+    if (_title != nil && ![_title isEqualToString:@""]) {
+        titleHeight = [self getTitleHeight];
+        viewHeight += titleHeight + LABEL_MARGIN * 2;
+    }
     
     viewHeight += self.buttons.count * (BUTTON_HEIGHT + SEPARATOR_HEIGHT);
     
@@ -165,17 +166,20 @@
     CGFloat tempY = 0.0;
     
     // layout titleView and titleLabel
-    CGRect titleViewFrame =
-    CGRectMake(0, 0, screenWidth, titleHeight + 2 * LABEL_MARGIN);
-    self.titleView.frame = titleViewFrame;
-    
-    CGRect titleLabelFrame =
-    CGRectMake(LABEL_MARGIN, LABEL_MARGIN,
-               screenWidth - 2 * LABEL_MARGIN,
-               titleHeight);
-    self.titleLabel.frame = titleLabelFrame;
-    tempY += titleHeight + LABEL_MARGIN * 2;
-    
+    if (_title != nil && ![_title isEqualToString:@""]) {
+        CGRect titleViewFrame =
+        CGRectMake(0, 0, screenWidth, titleHeight + 2 * LABEL_MARGIN);
+        self.titleView.frame = titleViewFrame;
+        
+        CGRect titleLabelFrame =
+        CGRectMake(LABEL_MARGIN, LABEL_MARGIN,
+                   screenWidth - 2 * LABEL_MARGIN,
+                   titleHeight);
+        self.titleLabel.frame = titleLabelFrame;
+        tempY += titleHeight + LABEL_MARGIN * 2;
+    } else {
+        self.titleView.frame = CGRectZero;
+    }
     // layout destructive button and other buttons
     for (int i = 0; i < self.buttons.count; ++i) {
         
