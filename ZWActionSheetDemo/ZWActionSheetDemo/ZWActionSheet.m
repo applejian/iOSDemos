@@ -35,7 +35,7 @@
 #define ANIMATION_DURATION  0.2
 
 - (void)commonInit {
-    self.backgroundColor = [UIColor YunWanViewBackgroundLightGrayColor];
+    self.backgroundColor = [UIColor lightGrayColor];
 }
 
 - (instancetype)initWithTitle:(NSString *)title

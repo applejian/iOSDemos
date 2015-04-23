@@ -19,16 +19,18 @@
 @implementation ViewController
 
 - (void)initViewAndSubViews {
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor lightGrayColor];
     CGFloat screenWidth = [UIScreen mainScreen].bounds.size.width;
     
     self.showActionSheetButton =
     [[UIButton alloc] initWithFrame:CGRectMake(0, 100, screenWidth, 44)];
     [self.showActionSheetButton setTitle:@"show action sheet" forState:UIControlStateNormal];
-    [self.showActionSheetButton setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
-    self.showActionSheetButton.backgroundColor = [UIColor whiteColor];
+    [self.showActionSheetButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    self.showActionSheetButton.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:self.showActionSheetButton];
     [self.showActionSheetButton addTarget:self action:@selector(showActionSheet:) forControlEvents:UIControlEventTouchDown];
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
 }
 
 - (void)viewDidLoad {

@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72DD1CF51AE73448008FBA81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DD1CF41AE73448008FBA81 /* main.m */; };
+		72DD1CF81AE73448008FBA81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DD1CF71AE73448008FBA81 /* AppDelegate.m */; };
+		72DD1CFB1AE73448008FBA81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DD1CFA1AE73448008FBA81 /* ViewController.m */; };
+		72DD1CFE1AE73448008FBA81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DD1CFC1AE73448008FBA81 /* Main.storyboard */; };
+		72DD1D001AE73448008FBA81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DD1CFF1AE73448008FBA81 /* Images.xcassets */; };
+		72DD1D031AE73448008FBA81 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72DD1D011AE73448008FBA81 /* LaunchScreen.xib */; };
+		72DD1D0F1AE73448008FBA81 /* PhotosPickerInWeChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DD1D0E1AE73448008FBA81 /* PhotosPickerInWeChatTests.m */; };
+		72DD1D321AE7360F008FBA81 /* ZWPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DD1D1C1AE7360F008FBA81 /* ZWPhoto.m */; };
+		72DD1D331AE7360F008FBA81 /* back_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72DD1D1F1AE7360F008FBA81 /* back_arrow@2x.png */; };
+		72DD1D341AE7360F008FBA81 /* checked2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72DD1D201AE7360F008FBA81 /* checked2@2x.png */; };
+		72DD1D351AE7360F008FBA81 /* checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72DD1D211AE7360F008FBA81 /* checked@2x.png */; };
+		72DD1D361AE7360F008FBA81 /* unchecked2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72DD1D221AE7360F008FBA81 /* unchecked2@2x.png */; };
+		72DD1D371AE7360F008FBA81 /* unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72DD1D231AE7360F008FBA81 /* unchecked@2x.png */; };
+		72DD1D381AE7360F008FBA81 /* ZWPhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DD1D261AE7360F008FBA81 /* ZWPhotoBrowserViewController.m */; };
+		72DD1D391AE7360F008FBA81 /* ZWPhotoGroupTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DD1D281AE7360F008FBA81 /* ZWPhotoGroupTableViewController.m */; };
+		72DD1D3A1AE7360F008FBA81 /* ZWPhotoPickerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DD1D2A1AE7360F008FBA81 /* ZWPhotoPickerNavigationController.m */; };
+		72DD1D3B1AE7360F008FBA81 /* ZWPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DD1D2C1AE7360F008FBA81 /* ZWPhotosCollectionViewController.m */; };
+		72DD1D3C1AE7360F008FBA81 /* UIView+Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DD1D2F1AE7360F008FBA81 /* UIView+Activity.m */; };
+		72DD1D3D1AE7360F008FBA81 /* ZWImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DD1D311AE7360F008FBA81 /* ZWImageScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72DD1D091AE73448008FBA81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72DD1CE71AE73448008FBA81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72DD1CEE1AE73448008FBA81;
+			remoteInfo = PhotosPickerInWeChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72DD1CEF1AE73448008FBA81 /* PhotosPickerInWeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotosPickerInWeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DD1CF31AE73448008FBA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72DD1CF41AE73448008FBA81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72DD1CF61AE73448008FBA81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72DD1CF71AE73448008FBA81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72DD1CF91AE73448008FBA81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		72DD1CFA1AE73448008FBA81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		72DD1CFD1AE73448008FBA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72DD1CFF1AE73448008FBA81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		72DD1D021AE73448008FBA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		72DD1D081AE73448008FBA81 /* PhotosPickerInWeChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotosPickerInWeChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DD1D0D1AE73448008FBA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72DD1D0E1AE73448008FBA81 /* PhotosPickerInWeChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotosPickerInWeChatTests.m; sourceTree = "<group>"; };
+		72DD1D1B1AE7360F008FBA81 /* ZWPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPhoto.h; sourceTree = "<group>"; };
+		72DD1D1C1AE7360F008FBA81 /* ZWPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPhoto.m; sourceTree = "<group>"; };
+		72DD1D1D1AE7360F008FBA81 /* ZWPhotoProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPhotoProtocol.h; sourceTree = "<group>"; };
+		72DD1D1F1AE7360F008FBA81 /* back_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_arrow@2x.png"; sourceTree = "<group>"; };
+		72DD1D201AE7360F008FBA81 /* checked2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checked2@2x.png"; sourceTree = "<group>"; };
+		72DD1D211AE7360F008FBA81 /* checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checked@2x.png"; sourceTree = "<group>"; };
+		72DD1D221AE7360F008FBA81 /* unchecked2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unchecked2@2x.png"; sourceTree = "<group>"; };
+		72DD1D231AE7360F008FBA81 /* unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unchecked@2x.png"; sourceTree = "<group>"; };
+		72DD1D251AE7360F008FBA81 /* ZWPhotoBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPhotoBrowserViewController.h; sourceTree = "<group>"; };
+		72DD1D261AE7360F008FBA81 /* ZWPhotoBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPhotoBrowserViewController.m; sourceTree = "<group>"; };
+		72DD1D271AE7360F008FBA81 /* ZWPhotoGroupTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPhotoGroupTableViewController.h; sourceTree = "<group>"; };
+		72DD1D281AE7360F008FBA81 /* ZWPhotoGroupTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPhotoGroupTableViewController.m; sourceTree = "<group>"; };
+		72DD1D291AE7360F008FBA81 /* ZWPhotoPickerNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPhotoPickerNavigationController.h; sourceTree = "<group>"; };
+		72DD1D2A1AE7360F008FBA81 /* ZWPhotoPickerNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPhotoPickerNavigationController.m; sourceTree = "<group>"; };
+		72DD1D2B1AE7360F008FBA81 /* ZWPhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPhotosCollectionViewController.h; sourceTree = "<group>"; };
+		72DD1D2C1AE7360F008FBA81 /* ZWPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPhotosCollectionViewController.m; sourceTree = "<group>"; };
+		72DD1D2E1AE7360F008FBA81 /* UIView+Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Activity.h"; sourceTree = "<group>"; };
+		72DD1D2F1AE7360F008FBA81 /* UIView+Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Activity.m"; sourceTree = "<group>"; };
+		72DD1D301AE7360F008FBA81 /* ZWImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWImageScrollView.h; sourceTree = "<group>"; };
+		72DD1D311AE7360F008FBA81 /* ZWImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWImageScrollView.m; sourceTree = "<group>"; };
+		72DD1D3F1AE736B6008FBA81 /* ZWPhotosPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWPhotosPicker.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72DD1CEC1AE73448008FBA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DD1D051AE73448008FBA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72DD1CE61AE73448008FBA81 = {
+			isa = PBXGroup;
+			children = (
+				72DD1CF11AE73448008FBA81 /* PhotosPickerInWeChat */,
+				72DD1D0B1AE73448008FBA81 /* PhotosPickerInWeChatTests */,
+				72DD1CF01AE73448008FBA81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72DD1CF01AE73448008FBA81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72DD1CEF1AE73448008FBA81 /* PhotosPickerInWeChat.app */,
+				72DD1D081AE73448008FBA81 /* PhotosPickerInWeChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72DD1CF11AE73448008FBA81 /* PhotosPickerInWeChat */ = {
+			isa = PBXGroup;
+			children = (
+				72DD1D191AE7360F008FBA81 /* ZWPhotosPicker */,
+				72DD1CF61AE73448008FBA81 /* AppDelegate.h */,
+				72DD1CF71AE73448008FBA81 /* AppDelegate.m */,
+				72DD1CF91AE73448008FBA81 /* ViewController.h */,
+				72DD1CFA1AE73448008FBA81 /* ViewController.m */,
+				72DD1CFC1AE73448008FBA81 /* Main.storyboard */,
+				72DD1CFF1AE73448008FBA81 /* Images.xcassets */,
+				72DD1D011AE73448008FBA81 /* LaunchScreen.xib */,
+				72DD1CF21AE73448008FBA81 /* Supporting Files */,
+			);
+			path = PhotosPickerInWeChat;
+			sourceTree = "<group>";
+		};
+		72DD1CF21AE73448008FBA81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72DD1CF31AE73448008FBA81 /* Info.plist */,
+				72DD1CF41AE73448008FBA81 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72DD1D0B1AE73448008FBA81 /* PhotosPickerInWeChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				72DD1D0E1AE73448008FBA81 /* PhotosPickerInWeChatTests.m */,
+				72DD1D0C1AE73448008FBA81 /* Supporting Files */,
+			);
+			path = PhotosPickerInWeChatTests;
+			sourceTree = "<group>";
+		};
+		72DD1D0C1AE73448008FBA81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72DD1D0D1AE73448008FBA81 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72DD1D191AE7360F008FBA81 /* ZWPhotosPicker */ = {
+			isa = PBXGroup;
+			children = (
+				72DD1D1A1AE7360F008FBA81 /* Datas */,
+				72DD1D1E1AE7360F008FBA81 /* Images */,
+				72DD1D241AE7360F008FBA81 /* ViewControllers */,
+				72DD1D2D1AE7360F008FBA81 /* Views */,
+				72DD1D3F1AE736B6008FBA81 /* ZWPhotosPicker.h */,
+			);
+			path = ZWPhotosPicker;
+			sourceTree = "<group>";
+		};
+		72DD1D1A1AE7360F008FBA81 /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				72DD1D1B1AE7360F008FBA81 /* ZWPhoto.h */,
+				72DD1D1C1AE7360F008FBA81 /* ZWPhoto.m */,
+				72DD1D1D1AE7360F008FBA81 /* ZWPhotoProtocol.h */,
+			);
+			path = Datas;
+			sourceTree = "<group>";
+		};
+		72DD1D1E1AE7360F008FBA81 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				72DD1D1F1AE7360F008FBA81 /* back_arrow@2x.png */,
+				72DD1D201AE7360F008FBA81 /* checked2@2x.png */,
+				72DD1D211AE7360F008FBA81 /* checked@2x.png */,
+				72DD1D221AE7360F008FBA81 /* unchecked2@2x.png */,
+				72DD1D231AE7360F008FBA81 /* unchecked@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		72DD1D241AE7360F008FBA81 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				72DD1D251AE7360F008FBA81 /* ZWPhotoBrowserViewController.h */,
+				72DD1D261AE7360F008FBA81 /* ZWPhotoBrowserViewController.m */,
+				72DD1D271AE7360F008FBA81 /* ZWPhotoGroupTableViewController.h */,
+				72DD1D281AE7360F008FBA81 /* ZWPhotoGroupTableViewController.m */,
+				72DD1D291AE7360F008FBA81 /* ZWPhotoPickerNavigationController.h */,
+				72DD1D2A1AE7360F008FBA81 /* ZWPhotoPickerNavigationController.m */,
+				72DD1D2B1AE7360F008FBA81 /* ZWPhotosCollectionViewController.h */,
+				72DD1D2C1AE7360F008FBA81 /* ZWPhotosCollectionViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		72DD1D2D1AE7360F008FBA81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72DD1D2E1AE7360F008FBA81 /* UIView+Activity.h */,
+				72DD1D2F1AE7360F008FBA81 /* UIView+Activity.m */,
+				72DD1D301AE7360F008FBA81 /* ZWImageScrollView.h */,
+				72DD1D311AE7360F008FBA81 /* ZWImageScrollView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72DD1CEE1AE73448008FBA81 /* PhotosPickerInWeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72DD1D121AE73448008FBA81 /* Build configuration list for PBXNativeTarget "PhotosPickerInWeChat" */;
+			buildPhases = (
+				72DD1CEB1AE73448008FBA81 /* Sources */,
+				72DD1CEC1AE73448008FBA81 /* Frameworks */,
+				72DD1CED1AE73448008FBA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotosPickerInWeChat;
+			productName = PhotosPickerInWeChat;
+			productReference = 72DD1CEF1AE73448008FBA81 /* PhotosPickerInWeChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72DD1D071AE73448008FBA81 /* PhotosPickerInWeChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72DD1D151AE73448008FBA81 /* Build configuration list for PBXNativeTarget "PhotosPickerInWeChatTests" */;
+			buildPhases = (
+				72DD1D041AE73448008FBA81 /* Sources */,
+				72DD1D051AE73448008FBA81 /* Frameworks */,
+				72DD1D061AE73448008FBA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72DD1D0A1AE73448008FBA81 /* PBXTargetDependency */,
+			);
+			name = PhotosPickerInWeChatTests;
+			productName = PhotosPickerInWeChatTests;
+			productReference = 72DD1D081AE73448008FBA81 /* PhotosPickerInWeChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72DD1CE71AE73448008FBA81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ZhangWei;
+				TargetAttributes = {
+					72DD1CEE1AE73448008FBA81 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					72DD1D071AE73448008FBA81 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 72DD1CEE1AE73448008FBA81;
+					};
+				};
+			};
+			buildConfigurationList = 72DD1CEA1AE73448008FBA81 /* Build configuration list for PBXProject "PhotosPickerInWeChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72DD1CE61AE73448008FBA81;
+			productRefGroup = 72DD1CF01AE73448008FBA81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72DD1CEE1AE73448008FBA81 /* PhotosPickerInWeChat */,
+				72DD1D071AE73448008FBA81 /* PhotosPickerInWeChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72DD1CED1AE73448008FBA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DD1D341AE7360F008FBA81 /* checked2@2x.png in Resources */,
+				72DD1CFE1AE73448008FBA81 /* Main.storyboard in Resources */,
+				72DD1D361AE7360F008FBA81 /* unchecked2@2x.png in Resources */,
+				72DD1D351AE7360F008FBA81 /* checked@2x.png in Resources */,
+				72DD1D331AE7360F008FBA81 /* back_arrow@2x.png in Resources */,
+				72DD1D031AE73448008FBA81 /* LaunchScreen.xib in Resources */,
+				72DD1D001AE73448008FBA81 /* Images.xcassets in Resources */,
+				72DD1D371AE7360F008FBA81 /* unchecked@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DD1D061AE73448008FBA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72DD1CEB1AE73448008FBA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DD1D3D1AE7360F008FBA81 /* ZWImageScrollView.m in Sources */,
+				72DD1CFB1AE73448008FBA81 /* ViewController.m in Sources */,
+				72DD1D3A1AE7360F008FBA81 /* ZWPhotoPickerNavigationController.m in Sources */,
+				72DD1D391AE7360F008FBA81 /* ZWPhotoGroupTableViewController.m in Sources */,
+				72DD1CF81AE73448008FBA81 /* AppDelegate.m in Sources */,
+				72DD1CF51AE73448008FBA81 /* main.m in Sources */,
+				72DD1D3C1AE7360F008FBA81 /* UIView+Activity.m in Sources */,
+				72DD1D321AE7360F008FBA81 /* ZWPhoto.m in Sources */,
+				72DD1D3B1AE7360F008FBA81 /* ZWPhotosCollectionViewController.m in Sources */,
+				72DD1D381AE7360F008FBA81 /* ZWPhotoBrowserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DD1D041AE73448008FBA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DD1D0F1AE73448008FBA81 /* PhotosPickerInWeChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72DD1D0A1AE73448008FBA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72DD1CEE1AE73448008FBA81 /* PhotosPickerInWeChat */;
+			targetProxy = 72DD1D091AE73448008FBA81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72DD1CFC1AE73448008FBA81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72DD1CFD1AE73448008FBA81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72DD1D011AE73448008FBA81 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72DD1D021AE73448008FBA81 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72DD1D101AE73448008FBA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72DD1D111AE73448008FBA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72DD1D131AE73448008FBA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotosPickerInWeChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		72DD1D141AE73448008FBA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotosPickerInWeChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		72DD1D161AE73448008FBA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotosPickerInWeChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotosPickerInWeChat.app/PhotosPickerInWeChat";
+			};
+			name = Debug;
+		};
+		72DD1D171AE73448008FBA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotosPickerInWeChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotosPickerInWeChat.app/PhotosPickerInWeChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72DD1CEA1AE73448008FBA81 /* Build configuration list for PBXProject "PhotosPickerInWeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DD1D101AE73448008FBA81 /* Debug */,
+				72DD1D111AE73448008FBA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72DD1D121AE73448008FBA81 /* Build configuration list for PBXNativeTarget "PhotosPickerInWeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DD1D131AE73448008FBA81 /* Debug */,
+				72DD1D141AE73448008FBA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72DD1D151AE73448008FBA81 /* Build configuration list for PBXNativeTarget "PhotosPickerInWeChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DD1D161AE73448008FBA81 /* Debug */,
+				72DD1D171AE73448008FBA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72DD1CE71AE73448008FBA81 /* Project object */;
+}
